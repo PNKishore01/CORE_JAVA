@@ -1,0 +1,20 @@
+Methods:- It is nothing but a block of statements kept at a single unit by keeping the method heading and the main purpose of the methods is to reuse the logic by using them we can able to use the logic multiple times.
+
+Syntax:- 
+
+    static/non-static returnType/non-returnType methodName(parameters){
+        //block of statements;
+    }
+
+* If method returns its own class then it is factory method.
+* Two types of methods 1. Predefined, 2. UserDefined
+* 1. Predefined methods:- The inbuilt methods developed by sun-micro systems based on universal requirements
+* 2. UserDefined methods:- these are developed by programmer or developer based on user requirements.
+
+* UserDefined methods again sub-classified into 8 types based on following requirements:-
+1. static
+2. Non-static
+3. returnType
+4. non-returnType
+5. with parameters
+6. without parameters
