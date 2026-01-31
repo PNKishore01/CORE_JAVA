@@ -1,0 +1,14 @@
+Ploymorphism :-
+* It is representing one form into many forms in java one form is actual or original method and many forms 
+are known as overloaded or overrided methods.
+
+* Ploymorphism is two types:
+    1. Compile_time(overloading), 2.Run-time(overriding)
+
+1. Compile_time is also known as early binding, static Ploymorphism or method overloading
+    * when we have two or more methods with same name with different parameters irrespective of return types within a
+    class is known as method overloading.
+2. Run_time is also known as late binding, dynamic Ploymorphism or method overriding
+    * when we have two or more methods with same name with same parameters, same return types having parent-child
+    class relation is known as method overriding.
+  
