@@ -1,0 +1,6 @@
+Abstraction:- 
+* The process of hiding unwanted implementation and providing necessary information to the end user is known
+    as Abstraction.
+* By using this we can able to decrease overriding complexity and can improve flexibility of overriding.
+* In order to achieve Abstraction we need a non-acess modifier called abstract.
+* we can achieve abstraction in two ways 1.using abstract class and 2.Interfaces.
