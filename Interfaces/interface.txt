@@ -1,0 +1,13 @@
+Interface:---------
+* It is also a type of class, which contains variables, methods.
+* Variables:- these are by default public static final variables.
+* Methods:- these are by default public abstract methods.
+* we can create Interface by using predefined keyword interface.
+* methods have no implementation till 1.7
+* variables and methods can be accessed anywhere because they are by default public
+* memory allocation for variables should be only once at a time because they are static.
+* by default methods are abstract so we don't want to mention abstract keyword.
+* interfaces doesn't have constructors. by using interface we can achieve multiple inheritance.
+* interfaces are 100% abstraction till 1.7
+* from 1.8 onwards there were two methods are implemented 1.default, 2.static
+* by using those we can create and write implementation for methods.
