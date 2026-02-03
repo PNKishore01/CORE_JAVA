@@ -1,0 +1,13 @@
+InnerClass:-
+
+* A class is defined in another class is known as Inner class
+* The InnerClass used by OuterClass object refrence.
+* There are 4 types of InnerClasses
+* 1. member InnerClass, 2. static InnerClass, 3. local InnerClass, 4. Anonymous InnerClass
+* 1. Member InnerClass:- A class is inside the other class is known as member InnerClass,
+     by default it is non-static so we didn't write static properties in this class.
+* 2. Static InnerClass:- A class is inside the other class preceeding with a static keyword is known as
+     static InnerClass, it may have allow both static and non-static properties.
+* 3. local InnerClass:- A class is inside the other class's method is known as local InnerClass
+* 4. Anonymous InnerClass:- a class doesn't have class name is called Anonymous InnerClass,
+     it will inherit automatically inherit from that class or interface.
