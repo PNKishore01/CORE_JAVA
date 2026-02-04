@@ -1,0 +1,10 @@
+Exception Handling:-
+
+* In every java program we have to see two types of exceptions 1. Checked and 2. Unchecked
+* The Exceptions which are raised during the compile-time is known as Checked Exceptions
+* The Exceptions which are raised during the run-time is known as UnChecked Exceptions
+* it is just a statement which causes abnormal termination for our java program and due to this remaining lines fo our 
+java program will not get executed.
+* Exceptions are classified into two types 1. Pre-defined and 2. User_defined
+* 1. Pre-defined Exceptions are inbuilt exceptions those are developed by sun-micro systems.
+* 2. user-defined exceptions are made by user, where our project requirement.
