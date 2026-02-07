@@ -1,0 +1,8 @@
+""" --- LIST --- """
+It is a predefined interface available in a predefined package
+called util and the fully qualified name of the list interface is
+‘java.util.List’.
+● It will allow duplicates and null values.
+● It will follow the insertion order of elements.
+● For this interface, we have implementation classes like ArrayList,
+LinkedList, Vector, and Stack
