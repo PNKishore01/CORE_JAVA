@@ -1,0 +1,15 @@
+● File Handling refers to the process of working with files.
+● It involves reading data from files, writing data to files, and manipulating files in
+various ways
+● Files are used to store information on computer storage media such as hard
+drive or solid-state drive
+● File handling involves the following operations
+○ Opening a file: Before you can read data from a file or write data to a file,
+you need to open it.
+○ Reading from a file: once a file is opened, you can read its contents.
+○ Writing to a file: After opening a file, you can write data to it, this includes
+creating a new file or appending data to an existing file.
+○ Closing a file: when you are done working with a file, you should close it.
+Closing a file releases system resources and ensures that any changes
+made to the file are saved. Failing which can result in data loss or
+resource leak.
