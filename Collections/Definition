@@ -1,0 +1,16 @@
+""" --- Collection Framework --- """
+● The collection framework is an in-built facility provided by Sun
+Microsystems.
+● By using the Collection Framework, we can store different types
+of values either of the same or different data types in a single
+object.
+● By using this we can perform operations like adding elements,
+adding multiple elements at a certain index, replacing elements,
+and removing elements like either a particular element or all the
+elements at a time, we can perform searching and sorting
+operations easily by using predefined methods and by
+implementing fewer lines of code.
+● It is one of the ways to store the data like a database.
+● In Collections we do not have any primitive type of data, here we
+will have data in the form of Objects and we only use wrapper
+classes in this framework.
