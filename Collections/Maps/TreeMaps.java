@@ -1,0 +1,83 @@
+import java.util.*;
+
+public class TreeMaps {
+
+
+/**
+ * It is a predefined class present in “ UTIL “ package.
+It will store the values in the form of key value pairs.
+It is the implementation class of Map, Sorted and Navigable Map.
+It does not allow duplicate keys but values might be duplicate.
+It does not allow null keys but values might be null.
+It will provide the flexibility like where we can store and retrieve key value pairs in
+the form of sorted order and by default ascending order.
+ */
+
+public static void main(String[] args) {
+		
+		//creation of map
+		Map<Integer, String> m = new TreeMap<>();
+		
+		//add of elements 
+		m.put(101, "Lion");
+		m.put(102, "Tiger");
+		m.put(103, "Liger");
+		m.put(104, "Elephant");
+		System.out.println(m);
+		
+		//retrieval keys
+		System.out.println(m.keySet());
+		
+		//you can iterate also by using key set
+		Set<Integer> s = m.keySet();
+		for(Integer key: s) {
+			System.out.println(key);
+		}
+		
+		//retrieval values
+		System.out.println(m.values());
+		//you can iterate also by using keyset
+		Collection<String> strs = m.values();
+		for(String value: strs) {
+			System.out.println(value);
+		}
+		
+		//you can iterate also by using entrySet
+		Set<Map.Entry<Integer, String>> enteries = m.entrySet();
+		for(Map.Entry<Integer, String> entry: enteries) {
+			Integer key = entry.getKey();
+			String value = entry.getValue();
+			System.out.println(key + " --- " + value);
+		}
+		
+		//retrieval values based on key
+		System.out.println(m.get(101));
+		//iterate also
+		for(Integer key : s) {
+			System.out.println(key + " --- " + m.get(key));
+		}
+		
+		//deletion of elements
+		m.remove(101);
+		System.out.println(m);
+		
+		//verification of keys
+		System.out.println(m.containsKey(102));
+		System.out.println(m.containsKey(201));
+		
+//		//verification of values
+		System.out.println(m.containsValue("Liger"));
+		System.out.println(m.containsValue("Monkey"));
+		
+		//updation
+		m.put(103, "Deer");
+		System.out.println(m);
+		//if value is present in specified key so they not update, otherwise it will create
+		m.putIfAbsent(105, "dog");
+		System.out.println(m);
+		System.out.println(m.size());
+		m.clear();
+		System.out.println(m);
+		
+	}
+}

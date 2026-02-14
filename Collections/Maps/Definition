@@ -1,0 +1,10 @@
+Map:: 
+
+It is a pre defined Interface present in “ UTIL “ package.
+It allows us to store the values in the form of both key value pairs.
+Here we can’t add duplicate key but we can store duplicate values.
+Here we can store null keys and null values.
+It does not follow any order of elements, it internally follow hashing mechanism for
+ordering the elements by default ascending order.
+For this interface we have three implementation classes like Hashmap, Linked
+Hashmap and TreeMap.
