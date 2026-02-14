@@ -1,0 +1,8 @@
+
+""" --- Queues --- """
+It is a predefined Interface available in the “ UTIL ” package.
+It will arrange the values in the form of first in first out of order (FIFO) .
+Here we can add the elements at the end of the Queue remove the value from the
+front of the queue.
+It will use dynamic array like array list for storing the elements.
+For these interfaces we have implementation class like linked list or array dequeue.
