@@ -1,0 +1,13 @@
+Sets:--
+
+1. It is a predefined interface present in the util package.
+2. This interface follows the Map interface to perform
+operations.
+3. It will allow null values but it doesn't allow duplicate
+elements.
+4. It will follow the hashing mechanism but it doesn't follow
+any order of elements (Random Access)
+For this interface, we have three implementation classes
+● HashSet
+● LinkedHashSet
+● TreeSet
